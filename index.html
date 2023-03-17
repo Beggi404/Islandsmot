@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo</title>
+    <title>Íslandsmót</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .input {
@@ -14,9 +14,9 @@
 </head>
 <body class="h-screen flex flex-col" style="background-color: rgb(60, 66, 74)">
     <div style="background-color: rgb(60, 66, 74)" class="flex justify-between border-b-2">
-        <h1 class="text-2xl my-5 ml-3 inline text-white">Home</h1>
-        <span class="my-5 mr-6 px-7 py-2 bg-white rounded-md border-2 border-blue-400">
-            <a href="index.php" class="text-blue-400">View All</a>
+        <a class="text-2xl my-5 ml-3 inline text-white" href="home.html">Home</a>
+        <span class="my-5 mr-6 px-7 py-2 bg-white rounded-md border-2 border-amber-500">
+            <a href="ideas.html" class="text-amber-500">View All</a>
         </span>
     </div>
     <div class="flex flex-col justify-center bg-white flex p-5 my-5 w-2/5 rounded-md mx-auto">
@@ -29,13 +29,13 @@
                     <p class="text-gray-400">
                         Title
                     </p>
-                    <input name="title" type="text" class="border rounded w-full">
+                    <input name="title" type="text" class="border rounded w-full" placeholder="Give your idea a title!">
                 </div>
                 <div class="mb-5">
                     <p class="text-gray-400">
                         Author
                     </p>
-                    <input name="author" type="text" class="border rounded w-full">
+                    <input name="author" type="text" class="border rounded w-full" placeholder="Who came up with the idea?">
                 </div>
                 <div class="mb-5">
                     <p class="text-gray-400">
